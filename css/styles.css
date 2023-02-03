@@ -28,14 +28,14 @@ header {
 }
 header .img1 {
   width: 10%;
-  background-image: url(../../images/logo.png);
+  background-image: url(/images/logo.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
 }
 header .img2 {
   width: 90%;
-  background-image: url(../../images/name.png);
+  background-image: url(/images/name.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -59,17 +59,8 @@ main nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: cadetblue;
   font-size: 1.5rem;
-}
-main nav a {
-  text-decoration: none;
-}
-main nav a:link {
-  color: darkcyan;
-}
-main nav a:hover {
-  font-size: larger;
-  color: rgb(243, 148, 203);
 }
 main ul {
   height: 90%;
@@ -107,17 +98,7 @@ main ul .pro1, main ul .pro2, main ul .pro3 {
   width: 95%;
   height: 95%;
 }
-main ul a {
-  text-decoration: none;
-}
-main ul a:link {
-  color: darkcyan;
-}
-main ul a:hover {
-  font-size: large;
-  color: rgb(243, 148, 203);
-}
-main ul .pro {
+main ul .pro1 .pro, main ul .pro2 .pro, main ul .pro3 .pro {
   height: 95%;
   max-width: 100%;
 }

@@ -34,8 +34,18 @@ main{
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        background-color: cadetblue;
         font-size: 1.5rem;
+
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: darkcyan;
+        }
+        a:hover{
+            font-size: larger;
+            color: rgb(243, 148, 203);
+        }
     }
     ul{
         height: 90%;
@@ -65,10 +75,20 @@ main{
         .pro1, .pro2, .pro3{
             width: 95%;
             height: 95%;
-            .pro{
-                height: 95%;
-                max-width: 100%;
-            }
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: darkcyan;
+        }
+        a:hover{
+            font-size: large;
+            color: rgb(243, 148, 203);
+        }
+        .pro{
+            height: 95%;
+            max-width: 100%;
         }
 }
 }
